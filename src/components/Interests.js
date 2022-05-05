@@ -1,8 +1,8 @@
 function Interest() {
   return (
     <div className='interest' id='interest'>
-      <h1 className='headers'>Interest.</h1>
-      <hr></hr>
+      <h1 className='headers1'>Interest.</h1>
+      <hr className='hr2'></hr>
       <br></br>
       <div className='columns'>
         <div className='column'>

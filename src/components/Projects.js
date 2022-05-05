@@ -23,7 +23,7 @@ function Projects() {
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"></link>
       <h1 className='headers'>Projects.</h1>
       <br></br>
-      <hr></hr>
+      <hr className='hr1'></hr>
       <div className="container">
         <div className="project-container">
           <div className="image-conatainer">

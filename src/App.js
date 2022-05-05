@@ -15,20 +15,20 @@ function App() {
     <>
     <NavBar/>
     <AboutMe />
-    <Parallax bgImage={ image1 } strength={200}>
+    {/* <Parallax bgImage={ image1 } strength={200}>
       <div style={{ height: 500 }}>
       </div>
-    </Parallax>
+    </Parallax> */}
     <Projects />
-    <Parallax bgImage={ image1 } strength={200}>
+    {/* <Parallax bgImage={ image1 } strength={200}>
       <div style={{ height: 500 }}>
       </div>
-    </Parallax>
+    </Parallax> */}
     <Interest />
-    <Parallax bgImage={ image1 } strength={200}>
+    {/* <Parallax bgImage={ image1 } strength={200}>
       <div style={{ height: 500 }}>
       </div>
-    </Parallax>
+    </Parallax> */}
     <ContactMe />
   </>
   );
