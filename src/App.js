@@ -15,20 +15,8 @@ function App() {
     <>
     <NavBar/>
     <AboutMe />
-    {/* <Parallax bgImage={ image1 } strength={200}>
-      <div style={{ height: 500 }}>
-      </div>
-    </Parallax> */}
     <Projects />
-    {/* <Parallax bgImage={ image1 } strength={200}>
-      <div style={{ height: 500 }}>
-      </div>
-    </Parallax> */}
     <Interest />
-    {/* <Parallax bgImage={ image1 } strength={200}>
-      <div style={{ height: 500 }}>
-      </div>
-    </Parallax> */}
     <ContactMe />
   </>
   );

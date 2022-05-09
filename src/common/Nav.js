@@ -20,10 +20,10 @@ function NavBar() {
       <main>
         <div className='navbar'>
           <div className='nav-content'>
-            <Link className='nav-margin' to='aboutMe' smooth='true' spy={true} onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>About</Link>
-            <Link className='nav-margin' to='projects' smooth='true' spy={true} onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>Projects</Link>
-            <Link className='nav-margin' to='interest' smooth='true' spy={true} onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>Interests</Link>
-            <Link className='nav-margin' to='contact' smooth='true' spy={true} onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>Contact</Link>
+            <Link className='nav-margin' to='aboutMe' smooth='true' spy={true} onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>ABOUT</Link>
+            <Link className='nav-margin' to='projects' smooth='true' spy={true} onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>PROJECTS</Link>
+            <Link className='nav-margin' to='interest' smooth='true' spy={true} onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>INTEREST</Link>
+            <Link className='nav-margin' to='contact' smooth='true' spy={true} onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>CONTACT</Link>
           </div>
         </div>
       </main>
