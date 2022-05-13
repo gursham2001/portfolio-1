@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i");
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Merriweather:wght@300&family=Raleway:wght@300&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -6,19 +7,17 @@
   font-family: 'Chivo', sans-serif;
   font-weight: 300;
 }
-
 .parallax-window {
   min-height: 500px;
   background: transparent;
 }
-
 .start{
   background-color: #990011;
 }
 .navbar{
   height: 100px;
   text-align: center;
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   cursor: pointer;
 }
@@ -68,7 +67,7 @@
 }
 .name {
   font-size: 90px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'IM Fell English', serif;
   font-weight: 700;
   font-style: italic;
 }
@@ -89,14 +88,12 @@
   background-color: #fcfcfc;
   color: #990011;
 }
-
   .aboutMe{
     height:100%;
     width:100%;
     background-color: black;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
     font-weight: 700;
-    font-style: italic;
   }
   .about-container {
     display: flex;
@@ -109,14 +106,13 @@
   }
   .about-header {
     color: #990011;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
     font-weight: 700;
-    font-style: italic;
   }
   .about-text{
     font-size: 18px;
     margin-top: 10px;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
   }
   .flex-child {
@@ -146,15 +142,14 @@
   .techs-text h4{
     font-size: 21px;
     margin-top: 5px;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
   }
-
 .projects{
   background-color: #990011;
   color: #fcf6f5;
   padding: 20px;
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
 .container{
@@ -184,7 +179,7 @@
 }
 .project-header{
   font-size: 40px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather', serif;
   font-weight: 700;
   font-style: italic;
 }
@@ -210,15 +205,12 @@
 .trying{
   background-color: Linear-gradient(90deg, #0162c8, #55e7fc);
 }
-
-
 .image{
   display: flex;
   flex: 1;
 }
 .image .screenshot{
   width: 400px;
-
 }
 .screenshot {
   border: white 3px solid;
@@ -229,7 +221,7 @@
   background-color: black;
   color: #990011;
   font-size: 30px;
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
 .interest .columns{
@@ -246,16 +238,14 @@
 }
 .interest-h3 {
   color: #fcf6f5;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather', serif;
   font-weight: 700;
   font-style: italic;
 }
-
 .header{
   font-size: 30px;
   text-align: center;
 }
-
 .contact{
   background-color: #990011;
   color: #fcf6f5;
@@ -264,7 +254,7 @@
   align-items: center;
   height: fit-content;
   width: 100;
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
 .contact-container{
@@ -288,7 +278,7 @@
   margin-bottom: 50px;
 }
 .contact-info{
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   margin-top: 70px;
   font-size: 25px;
@@ -305,11 +295,9 @@
 a {
   color: #990011;
 }
-.contact-devicons {
-  flex-direction: row;
-}
 .contact-devicons{
   display: flex;
+  flex-direction: row;
   justify-content: center;
   color: #990011;
 }
@@ -320,23 +308,18 @@ a {
   width: 50px;
   color: #990011;
 }
-
 .header{
   margin-bottom: 30px;
 }
-
 .images {
   display: flex;
   flex: 1;
   flex-direction: column;
   height: 300px;
 }
-
 i {
   font-size: 78px;
 }
-
-
 h1 {
   font-size: 70px;
 }
@@ -346,25 +329,23 @@ h1 {
   background-color: #fcf6f5;
   border: white;
 }
-
 .hr2{
   width: 400px;
   height: 3px;
   background-color: #990011;
   border: white;
 }
-
 .headers {
   text-align: center;
   color: #fcf6f5;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather', serif;
   font-style: italic;
 }
 
 .headers1 {
   text-align: center;
   color: #990011;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather', serif;
   font-style: italic;
 }
 
