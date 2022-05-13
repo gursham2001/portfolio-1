@@ -15,6 +15,7 @@ function NavBar() {
     e.target.style.color = 'black'
   }
 
+
   return (
     <div className='start'>
       <main>
