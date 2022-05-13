@@ -32,7 +32,12 @@ function NavBar() {
         <div className='parallax-intro'>
         <p className='name'>Gursham Singh</p>
         <br></br>
-        <p className='role'>Junior Software Developer</p>
+        <p className='role'>Front-End Web Developer</p>
+        <br></br>
+        <br></br>
+        <a href='https://www.canva.com/design/DAEkOIIO1LI/MWTsjMBnL6vgk-mbxbzoRw/view?utm_content=DAEkOIIO1LI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton#1' target='_blank' rel="noopener noreferrer">
+        <button className='cv-button'>  View CV  </button>
+        </a>
         </div>
       </div>
       </section>
