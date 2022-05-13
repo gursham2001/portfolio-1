@@ -12,7 +12,7 @@
   background: transparent;
 }
 .start{
-  background-color: black;
+  background-color: #18191a;
 }
 .navbar{
   height: 100px;
@@ -92,7 +92,7 @@
   .aboutMe{
     height:100%;
     width:100%;
-    background-color: black;
+    background-color: #18191a;
     font-family: 'Merriweather', serif;
     font-weight: 700;
   }
@@ -131,7 +131,7 @@
     margin-left: 30px;
     background-color: #1F51FF ;
     color: #fcf6f5;
-    box-shadow:  inset black 0 0 25px;
+    box-shadow:  inset #18191a 0 0 25px;
   }
   .techs-text{
     margin-top: 5px;
@@ -147,7 +147,7 @@
     font-weight: 300;
   }
 .projects{
-  background-color: black;
+  background-color: #18191a;
   color: #fcf6f5;
   padding: 20px;
   font-family: 'Raleway', sans-serif;
@@ -203,9 +203,6 @@
 .project-hr{
   width: 250px;
 }
-.trying{
-  background-color: Linear-gradient(90deg, #0162c8, #55e7fc);
-}
 .image{
   display: flex;
   flex: 1;
@@ -219,7 +216,7 @@
 .interest{
   padding: 45px;
   padding-bottom: 65px;
-  background-color: black;
+  background-color: #18191a;
   color: white;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
@@ -247,7 +244,7 @@
   text-align: center;
 }
 .contact{
-  background-color: black;
+  background-color: #18191a;
   color: #fcf6f5;
   padding:50px;
   flex-direction: column;

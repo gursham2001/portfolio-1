@@ -5,7 +5,7 @@ function Contact() {
   }
 
   function onMouseOver(e) {
-    e.target.style.color = 'black'
+    e.target.style.color = '#18191a'
   }
 
   return (
