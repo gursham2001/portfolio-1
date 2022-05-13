@@ -9,10 +9,10 @@ import React from 'react'
 function NavBar() {
 
   function onMouseLeave(e) {
-    e.target.style.color = '#fcf6f5'
+    e.target.style.color = 'white'
   }
   function onMouseOver(e) {
-    e.target.style.color = 'black'
+    e.target.style.color = '#1F51FF'
   }
 
 

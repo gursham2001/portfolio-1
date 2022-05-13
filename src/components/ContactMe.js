@@ -1,7 +1,7 @@
 function Contact() {
 
   function onMouseLeave(e) {
-    e.target.style.color = '#990011'
+    e.target.style.color = '#1F51FF'
   }
 
   function onMouseOver(e) {

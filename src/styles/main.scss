@@ -12,7 +12,7 @@
   background: transparent;
 }
 .start{
-  background-color: #990011;
+  background-color: black;
 }
 .navbar{
   height: 100px;
@@ -70,6 +70,7 @@
   font-family: 'IM Fell English', serif;
   font-weight: 700;
   font-style: italic;
+  color: #1F51FF;
 }
 .role {
   font-size: 50px;
@@ -78,15 +79,15 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 30px;
-  background-color: #990011;
+  background-color: #1F51FF;
   color: #fcf6f5;
   border: 2px solid #fcf6f5;
   width: 250px;
   height: 60px
 }
 .cv-button:hover {
-  background-color: #fcfcfc;
-  color: #990011;
+  background-color: #fcf6f5;
+  color: #1F51FF;
 }
   .aboutMe{
     height:100%;
@@ -105,7 +106,7 @@
     padding-bottom: 150px;
   }
   .about-header {
-    color: #990011;
+    color: #1F51FF;
     font-family: 'Merriweather', serif;
     font-weight: 700;
   }
@@ -122,13 +123,13 @@
       margin-right: 30px;
       height: 700px;
       width: 500px;
-      color: #990011 ;
+      color: #fcf6f5 ;
   }
   .flex-child:last-child {
     height: 700px;
     width: 550px;
     margin-left: 30px;
-    background-color: #990011 ;
+    background-color: #1F51FF ;
     color: #fcf6f5;
     box-shadow:  inset black 0 0 25px;
   }
@@ -146,7 +147,7 @@
     font-weight: 300;
   }
 .projects{
-  background-color: #990011;
+  background-color: black;
   color: #fcf6f5;
   padding: 20px;
   font-family: 'Raleway', sans-serif;
@@ -219,7 +220,7 @@
   padding: 45px;
   padding-bottom: 65px;
   background-color: black;
-  color: #990011;
+  color: white;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
@@ -237,7 +238,7 @@
   font-size: 25px;
 }
 .interest-h3 {
-  color: #fcf6f5;
+  color: #1F51FF;
   font-family: 'Merriweather', serif;
   font-weight: 700;
   font-style: italic;
@@ -247,7 +248,7 @@
   text-align: center;
 }
 .contact{
-  background-color: #990011;
+  background-color: black;
   color: #fcf6f5;
   padding:50px;
   flex-direction: column;
@@ -268,7 +269,7 @@
 .text-container{
   padding: 30px;
   background-color: #fcf6f5;
-  color: #990011;
+  color: #1F51FF;
   position: relative;
   width: 550px;
   height: 350px;
@@ -293,20 +294,20 @@
   align-items: center;
 }
 a {
-  color: #990011;
+  color: #1F51FF;
 }
 .contact-devicons{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: #990011;
+  color: #1F51FF;
 }
 .icon{
   margin-right: 60px;
   margin-left: 60px;
   height: 100px;
   width: 50px;
-  color: #990011;
+  color: #1F51FF;
 }
 .header{
   margin-bottom: 30px;
@@ -326,25 +327,30 @@ h1 {
 .hr1{
   width: 400px;
   height: 3px;
-  background-color: #fcf6f5;
+  background-color: #1F51FF;
   border: white;
 }
 .hr2{
   width: 400px;
   height: 3px;
-  background-color: #990011;
+  background-color: #1F51FF;
   border: white;
 }
 .headers {
   text-align: center;
-  color: #fcf6f5;
+  color: white;
   font-family: 'Merriweather', serif;
   font-style: italic;
 }
-
 .headers1 {
   text-align: center;
-  color: #990011;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+}
+.header-skills {
+  text-align: center;
+  color: #fcf6f5;
   font-family: 'Merriweather', serif;
   font-style: italic;
 }

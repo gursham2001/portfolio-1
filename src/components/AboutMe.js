@@ -17,7 +17,7 @@ function AboutMe() {
         </div>
 
         <div className="flex-child techs">
-          <h1 className='headers'>Technicals</h1>
+          <h1 className='header-skills'>Technicals</h1>
           <section className='techs-text'>
             <hr className='hr1'></hr>
             <br></br>
