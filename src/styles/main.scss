@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Merriweather:wght@300&family=Raleway:wght@300&display=swap');
 
-
 * {
   box-sizing: border-box;
   margin: 0 auto;
-  font-family: 'Chivo', sans-serif;
-  font-weight: 300;
 }
-.parallax-window {
-  min-height: 500px;
-  background: transparent;
-}
-.start{
+#root {
   background-color: #18191a;
 }
+.appContainer {
+  max-width: 1450px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
 .navbar{
   height: 100px;
   text-align: center;
@@ -22,40 +21,16 @@
   cursor: pointer;
 }
 .nav-content{
-  // // margin-top: 100px;
   padding-top: 0px;
   padding-bottom: 10px;
   font-size: 60px;
 }
 .nav-margin{
-  // margin-top: 40px;
   margin: 35px;
   color: #fcf6f5;
   font-size: 30px;
 }
 
-// .home{
-//   color: #808B96;
-//   font-size: 30px;
-//   width: 100%;
-//   height: 100%;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
-// .intro{
-//   padding: 50px;
-//   background-color: white;
-//   color: #808B96;
-//   position: relative;
-//   width: 1160px;
-//   height: 650px;
-//   box-sizing: border-box;
-//   box-shadow: inset black 0 0 140px;;
-//   margin-top: 20px;
-//   margin-bottom: 120px;
-//   font-family: 'Irish Grover', cursive
-// }
 .parallax-intro{
   text-align: center;
   align-items: center;
@@ -92,7 +67,6 @@
   .aboutMe{
     height:100%;
     width:100%;
-    background-color: #18191a;
     font-family: 'Merriweather', serif;
     font-weight: 700;
   }
@@ -109,6 +83,7 @@
     color: #1F51FF;
     font-family: 'Merriweather', serif;
     font-weight: 700;
+    font-size: 55px;
   }
   .about-text{
     font-size: 18px;
@@ -129,7 +104,7 @@
     height: 700px;
     width: 550px;
     margin-left: 30px;
-    background-color: #1F51FF ;
+    background-color: #18191a ;
     color: #fcf6f5;
     box-shadow:  inset #18191a 0 0 25px;
   }
@@ -141,13 +116,17 @@
     margin-bottom: 5px;
   }
   .techs-text h4{
-    font-size: 21px;
+    font-size: 20px;
     margin-top: 5px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
+    color: #1F51FF;
   }
+  .techs-text p {
+    font-size: 18px;
+  }
+
 .projects{
-  background-color: #18191a;
   color: #fcf6f5;
   padding: 20px;
   font-family: 'Raleway', sans-serif;
@@ -178,14 +157,14 @@
   text-align:center;
   color: #fcf6f5;
 }
-.project-header{
-  font-size: 40px;
+.project-headers{
+  font-size: 35px;
   font-family: 'Merriweather', serif;
   font-weight: 700;
   font-style: italic;
 }
 .project-text{
-  font-size: 20px;
+  font-size: 18px;
 }
 .project-button{
   margin-left: 30px;
@@ -212,17 +191,17 @@
 }
 .screenshot {
   border: white 3px solid;
+
 }
-.interest{
+.interest-wrap{
   padding: 45px;
   padding-bottom: 65px;
-  background-color: #18191a;
   color: white;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
-.interest .columns{
+.interests-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -230,21 +209,22 @@
   flex-wrap: wrap;
   width: 100%;
 }
-.interest-description {
-  width: 1100px;
-  font-size: 25px;
+.interest-container{
+  padding-bottom: 20px ;
 }
 .interest-h3 {
   color: #1F51FF;
   font-family: 'Merriweather', serif;
   font-weight: 700;
+  padding-top: 35px;
 }
-.header{
-  font-size: 30px;
-  text-align: center;
+.interest-description {
+  width: 1100px;
+  font-size: 18px;
+  padding-top: 20px;
 }
+
 .contact{
-  background-color: #18191a;
   color: #fcf6f5;
   padding:50px;
   flex-direction: column;
@@ -264,13 +244,11 @@
 }
 .text-container{
   padding: 30px;
-  background-color: #fcf6f5;
-  color: #1F51FF;
+  color: #fcf6f5;
   position: relative;
   width: 550px;
   height: 350px;
   box-sizing: border-box;
-  box-shadow: inset 0 0 30px;;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -305,9 +283,6 @@ a {
   width: 50px;
   color: #1F51FF;
 }
-.header{
-  margin-bottom: 30px;
-}
 .images {
   display: flex;
   flex: 1;
@@ -317,41 +292,19 @@ a {
 i {
   font-size: 78px;
 }
-h1 {
-  font-size: 70px;
-}
+
 .hr1{
   width: 400px;
   height: 3px;
-  background-color: #1F51FF;
-  border: white;
-}
-.hr2{
-  width: 400px;
-  height: 3px;
-  background-color: #1F51FF;
-  border: white;
+  background-color: #fcf6f5;
+  border: #fcf6f5;
 }
 .headers {
   text-align: center;
-  color: white;
+  color: #1F51FF;
   font-family: 'Merriweather', serif;
   font-weight: 700;
+  font-size: 55px;
+  padding-bottom: 10px;
 }
-.headers1 {
-  text-align: center;
-  color: white;
-  font-family: 'Merriweather', serif;
-  font-weight: 700;
-
-}
-.header-skills {
-  text-align: center;
-  color: #fcf6f5;
-  font-family: 'Merriweather', serif;
-
-}
-
-
-
 

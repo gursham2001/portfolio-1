@@ -17,11 +17,11 @@ function AboutMe() {
         </div>
 
         <div className="flex-child techs">
-          <h1 className='header-skills'>Technicals.</h1>
+          <h1 className='headers'>TECHNICALS.</h1>
           <section className='techs-text'>
             <hr className='hr1'></hr>
             <br></br>
-            <h4>FRONT-END</h4>
+            <h4 >FRONT-END</h4>
             <br></br>
             <p>HTML,CSS,CSS frameworks, SASS, JavaScript, React, Axios, Rest API requestes</p>
             <br></br>

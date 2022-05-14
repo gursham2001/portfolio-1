@@ -1,18 +1,18 @@
 function Contact() {
 
   function onMouseLeave(e) {
-    e.target.style.color = '#1F51FF'
+    e.target.style.color = 'white'
   }
 
   function onMouseOver(e) {
-    e.target.style.color = '#18191a'
+    e.target.style.color = '#1F51FF'
   }
 
   return (
 
     <div className='contact' id='contact'>
       <div className='contact-container'>
-        <h1 className='headers'>Contact.</h1>
+        <h1 className='headers'>CONTACT.</h1>
         <hr className='hr1'></hr>
         <div className='text-container'>
           <div className='text'>
