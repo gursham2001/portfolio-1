@@ -3,6 +3,14 @@ import { faLink } from '@fortawesome/free-solid-svg-icons'
 
 function Projects() {
 
+  // function onMouseLeave(e) {
+  //   e.target.style.color = '#fcf6f5'
+  // }
+
+  // function onMouseOver(e) {
+  //   e.target.style.color = '#1F51FF'
+  // }
+
   return (
     <div className='projects' id='projects'>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"></link>
@@ -20,12 +28,12 @@ function Projects() {
             <p className='project-text'>Sith Invaders was a project I had a week to build a grid based game to consolidate and showcase the JS fundamentals we had learnt from the GA course. using JavaScript, CSS and HTML</p>
             <hr className='project-hr'></hr>
             <div className='project-links'>
-              <div className="icons" >
+              <div className="icons">
                 <a href='https://github.com/gursham2001/project-1' target='_blank' rel="noopener noreferrer">
                   <i id='project-giticons' className="devicon-github-original-wordmark"></i>
                 </a>
-                <a className='trying' href='https://gursham2001.github.io/project-1/' target='_blank' rel="noopener noreferrer">
-                  <FontAwesomeIcon className='fA' icon={faLink}></FontAwesomeIcon>
+                <a className='trying' href='https://gursham2001.github.io/project-1/' target='_blank' rel="noopener noreferrer" >
+                  <FontAwesomeIcon className='fA' icon={faLink} ></FontAwesomeIcon>
                 </a>
               </div>
             </div>
@@ -43,7 +51,7 @@ function Projects() {
             <p className='project-text'>We worked in a pair to build a React App using a third party API to populate our site with data. Prior to this Reactathon we had spent a few weeks in class learning the fundamentals of React from axios GET and POST request to React state and JSX </p>
             <hr className='project-hr'></hr>
             <div className="icons">
-              <a href='https://github.com/gursham2001/sei-project2-reactathon' target='_blank' rel="noopener noreferrer">
+              <a href='https://github.com/gursham2001/sei-project2-reactathon' target='_blank' rel="noopener noreferrer" >
                 <i id='project-giticons' className="devicon-github-original-wordmark"></i>
               </a>
               <a href='https://superheros-ga.netlify.app/' target='_blank' rel="noopener noreferrer">
@@ -64,7 +72,7 @@ function Projects() {
             <p className='project-text'>As a group of four we were given just over a week to create a full-stack MERN app with CRUD functionality, we decided to use mapbox and create a site in which users could see places they could visit other then the popular generic parts of london. Other functionalities include signing in and being able to put your own suggestions up for others to see.</p>
             <hr className='project-hr'></hr>
             <div className="icons">
-              <a href='https://github.com/gursham2001/project-3-client' target='_blank' rel="noopener noreferrer">
+              <a href='https://github.com/gursham2001/project-3-client' target='_blank' rel="noopener noreferrer" >
                 <i id='project-giticons' className="devicon-github-original-wordmark"></i>
               </a>
               <a href='https://trippy-maps.netlify.app/' target='_blank' rel="noopener noreferrer">

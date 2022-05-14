@@ -18,16 +18,16 @@ function Contact() {
           <div className='text'>
             <div className='links'>
               <div className='contact-info' onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                <a href='mailto: GurshamDev@gmail.com'>GurshamDev@gmail.com</a>
+                <a href='mailto: GurshamDev@gmail.com' target='_blank' rel="noopener noreferrer">GurshamDev@gmail.com</a>
               </div>
               <br></br>
               <div className='contact-devicons'>
                 <div className='icon' onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                  <a href='https://www.linkedin.com/in/gurshamsingh/'><i className="devicon-linkedin-plain"></i></a>
+                  <a href='https://www.linkedin.com/in/gurshamsingh/' target='_blank' rel="noopener noreferrer"><i className="devicon-linkedin-plain"></i></a>
                 </div>
                 <br></br>
                 <div className='icon' onMouseOver={onMouseOver} onMouseLeave={onMouseLeave}>
-                  <a href='https://github.com/Gursham2001'><i className="devicon-github-original-wordmark"></i></a>
+                  <a href='https://github.com/Gursham2001' target='_blank' rel="noopener noreferrer"><i className="devicon-github-original-wordmark"></i></a>
                 </div>
               </div>
             </div>
