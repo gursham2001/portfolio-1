@@ -2,7 +2,7 @@ function Skills() {
   return (
     <div className='skills' id='skills'>
         {/* <div className="flex-child techs"> */}
-          <h1 className='headers'>Skills.</h1>
+          <h1 className='headers'>SKILLS.</h1>
             <hr className='hr1'></hr>
             <div className='skills-icons'>
             <i className="devicon-html5-plain-wordmark"></i>
