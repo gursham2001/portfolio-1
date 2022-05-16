@@ -11,7 +11,7 @@ function Skills() {
             <i className="devicon-react-original-wordmark"></i>
             <i className="devicon-bulma-plain"></i>
             <i className="devicon-sass-original"></i>
-            <i className="devicon-visualstudio-plain-wordmark"></i>
+            <i className="devicon-vscode-plain-wordmark"></i>
             <i className="devicon-python-plain-wordmark"></i>
             <i className="devicon-django-plain"></i>
             <i className="devicon-postgresql-plain-wordmark"></i>
