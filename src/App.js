@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AboutMe from './components/AboutMe'
+import Skills from './components/Skills'
 import Interest from './components/Interests'
 import Projects from './components/Projects'
 import ContactMe from './components/ContactMe'
@@ -13,7 +13,7 @@ function App() {
   <>
   <div className="appContainer">
     <NavBar/>
-    <AboutMe />
+    <Skills />
     <Projects />
     <Interest />
     <ContactMe />
