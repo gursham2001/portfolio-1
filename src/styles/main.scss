@@ -116,16 +116,20 @@
   height:100%;
   width:100%;
   padding-bottom: 120px;
-  padding-top: 120px;
+  padding-top: 20px;
 }
 .skills-icons i {
-  color: #f1f1f1;
   width: 100px;
   margin: 30px;
   line-height: 75px;
   font-size: 80px;
   padding:40px;
+  color: #fcf6f5;
 }
+.skills-icons i:hover {
+  color: #1F51FF;
+}
+
 
 .projects{
   color: #fcf6f5;
@@ -213,6 +217,7 @@
   text-align: center;
   flex-wrap: wrap;
   width: 100%;
+  padding-top: 50px;
 }
 .interest-container{
   padding-bottom: 20px ;
