@@ -4,6 +4,7 @@ function Skills() {
         {/* <div className="flex-child techs"> */}
           <h1 className='headers'>SKILLS.</h1>
             <hr className='hr1'></hr>
+            <p className='javaFavoured'>Although JavaScript is my favoured language, I have experience in the following. I am always developing my skills further. Currently I am doing CodeWars and learning Next.js</p>
             <div className='skills-icons'>
             <i className="devicon-html5-plain-wordmark" id='blue'></i>
             <i className="devicon-css3-plain-wordmark" id='white'></i>
