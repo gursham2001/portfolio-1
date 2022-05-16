@@ -12,7 +12,7 @@ function NavBar() {
   }
 
   return (
-    <div className='start' style={{ height: 1000 }}>
+    <div className='start' style={{ height: 900 }}>
       <main>
         <div className='navbar'>
           <div className='nav-content'>
