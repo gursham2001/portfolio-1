@@ -41,7 +41,7 @@
   padding-bottom: 150px;
 }
 .intro-container:first-child{
-  margin-right: 90px;
+  margin-right: 50px;
   height: 700px;
   width: 1100px;
   color: #fcf6f5 ;
@@ -90,7 +90,7 @@
 //   }
 .about-text {
   color: #fcf6f5;
-  width: 350px;
+  width: 450px;
   font-size: 18px;
   padding-top: 10px;
   font-family: 'Raleway', sans-serif;
@@ -614,7 +614,7 @@ i {
   }
   .contact-devicons{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     color: #fcf6f5;
   }
