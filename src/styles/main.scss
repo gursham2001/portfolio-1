@@ -326,7 +326,7 @@ i {
   padding-top: 20px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 760px) {
   #root {
     background-color: #18191a;
   }
@@ -354,41 +354,42 @@ i {
 
   .wrapper {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding-top: 150px;
     padding-bottom: 150px;
   }
-  .intro-container{
-    height: 700px;
+  .intro-container:first-child{
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 200px;
     width: 350px;
     color: #fcf6f5 ;
   }
-  .about-container{
-    display: flex;
-    // flex-wrap: wrap;
-    height:700px;
-    width: 900px;
-
+  .about-container:last-child{
+    height: 700px;
+    width: 350px;
     color: #fcf6f5;
+    text-align: center;
   }
   .name {
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'IM Fell English', serif;
     font-weight: 700;
     font-style: italic;
     color: #1F51FF;
-
   }
   .role {
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 30px;
   }
   .cv-button {
     cursor: pointer;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #1F51FF;
     color: #fcf6f5;
     border: 3px solid #fcf6f5;
@@ -410,8 +411,9 @@ i {
   //   padding-bottom: 10px;
   //   }
   .about-text {
-    color: #1F51FF;
-    font-size: 12px;
+    color: #fcf6f5;
+    width: 350px;
+    font-size: 14px;
     padding-top: 10px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -469,13 +471,13 @@ i {
   }
   .project-container{
     height:auto;
-    width: 350px;
+    width: 300px;
     margin-top:50px;
     margin-bottom: 50px;
   }
   .image-container, img{
-    height:350px;
-    width: 350px;
+    height:200px;
+    width: 300px;
   }
   .text{
     display:flex;
@@ -513,7 +515,7 @@ i {
     padding-top: 30px;
   }
   .project-hr{
-    width: 200px;
+    width: 175px;
   }
   .image{
     display: flex;
@@ -617,8 +619,6 @@ i {
     color: #fcf6f5;
   }
   .icon{
-    // margin-right: 60px;
-    // margin-left: 60px;
     height: 100px;
     width: 50px;
     color: #fcf6f5;
@@ -634,7 +634,7 @@ i {
   }
 
   .hr1{
-    width: 250px;
+    width: 175px;
     height: 3px;
     background-color: #fcf6f5;
     border: #fcf6f5;
